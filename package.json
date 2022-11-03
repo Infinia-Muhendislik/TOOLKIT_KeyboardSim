@@ -1,0 +1,19 @@
+{
+  "name": "keyboardsim",
+  "version": "1.0.0",
+  "description": "serial port to keyboard input",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "INFINIA"
+  ],
+  "author": "Elvan Can Basaran",
+  "license": "ISC",
+  "devDependencies": {
+    "node-key-sender": "^1.0.11",
+    "serialport": "^10.4.0"
+  }
+}
